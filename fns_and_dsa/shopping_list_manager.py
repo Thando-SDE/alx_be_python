@@ -1,4 +1,4 @@
-def dispay_menu():
+def display_menu():
     print("Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
@@ -8,7 +8,7 @@ def dispay_menu():
 def main():
     shopping_list = []
     while True:
-        dispay_menu()
+        display_menu()
         choice = input("Enter your choice: ")
         
         if choice == '1':
@@ -42,9 +42,9 @@ def main():
         else:
             print("Invalid choice. Please try again.")
 
-        print()
+if __name__ == "__main__":
+    main()
 
-main()
 
 
 
