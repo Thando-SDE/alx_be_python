@@ -1,15 +1,15 @@
 """
 Perform basic arithmetic operations on two numbers.
 
-args:
+Args:
     num1 (float): First number
-    nume (float): Second Number
-    operation (str): Operation to perform - 'add', 'subtraction', 'multiplication', or 'divide'
+    num2 (float): Second Number
+    operation (str): Operation to perform - 'add', 'subtract', 'multiply', or 'divide'
 
 Returns:
     float or str: Result of the operation or error message for division by zero
 """
-def perform_operations(num1, num2, operation):
+def perform_operation(num1, num2, operation):
 
     operation = operation.lower().strip()
 
