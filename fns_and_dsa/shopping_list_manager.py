@@ -44,6 +44,8 @@ def main():
 
         print()
 
+main()
+
 
 
 
