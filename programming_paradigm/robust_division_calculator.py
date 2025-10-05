@@ -1,10 +1,10 @@
 def safe_divide(numerator, denominator):
-    
+
     try:
         num = float(numerator)
         den = float(denominator)
     except ValueError:
-        return "Error: Please enter numeric values only"
+        return "Error: Please enter numeric values only."
     
     if den == 0:
         return "Error: Cannot divide by zero."
