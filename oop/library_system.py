@@ -27,12 +27,12 @@ class Library:
         self.books = []
     def add_book(self, book):
         self.books.append(book)
-        print(f"Added: {book.title}")
+        
     def list_books(self):
-        print("\n--- Library Collection ---")
+        
         for book in self.books:
             print(book)
-        print("-----------------------")
+        
 
    
     
