@@ -1,10 +1,10 @@
 class Book:
     def __init__(self, title, author):
         self.title = title
-        self.auhtor = author
+        self.author = author
 
     def get_details(self):
-        return f"book: {self.title} by {self.author}"
+        return f"Book: {self.title} by {self.author}"
     
 class EBook(Book):
     def __init__(self, title, author, file_size):
@@ -32,5 +32,7 @@ class Library:
         print("\n--- Library Collection ---")
         for book in self.books:
             print(book.get_details())
-            print("-----------------------")
+        print("-----------------------")
+
+   
     
